@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int N,K,i,a[100];
+	int N,K,i,a[100],c=0;
 	scanf("%d\n%d",&N,&K);
 	for(i=1;i<=N;i++)
 	{
@@ -11,8 +11,9 @@ int main()
 	{
 		if(K==a[i])
 		{
-		printf("Yes");
+			c++;
 }
 }
+printf("%d",c);
 return 0;
 }
